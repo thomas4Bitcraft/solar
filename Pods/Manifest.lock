@@ -1,0 +1,16 @@
+PODS:
+  - Solar (2.1.0)
+
+DEPENDENCIES:
+  - Solar
+
+SPEC REPOS:
+  trunk:
+    - Solar
+
+SPEC CHECKSUMS:
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+
+PODFILE CHECKSUM: 6423c5001004814866db909a202eeabd2a0a548b
+
+COCOAPODS: 1.9.1
