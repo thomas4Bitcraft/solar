@@ -11,7 +11,7 @@ import Solar
 import CoreLocation
 struct ContentView: View {
    
-    @ObservedObject var label: SunsetString
+    @ObservedObject var sunsetLabel: SunsetString
     var body: some View {
         ZStack {
             Color.black
@@ -19,7 +19,7 @@ struct ContentView: View {
             HStack {
                 Image("MainViewIcon")
                 ZStack<Text> {
-                    return Text(self.label.label).foregroundColor(Color.white)
+                    return Text(self.sunsetLabel.label).foregroundColor(Color.white)
                 }
             }
         }
@@ -28,6 +28,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(label: sunsetString)
+        ContentView(sunsetLabel: SolarManager.instance.sunsetString)
     }
 }

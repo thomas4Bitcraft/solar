@@ -21,8 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let contentView = ContentView(label: sunsetString)
+        let contentView = ContentView(sunsetLabel: SolarManager.instance.sunsetString)
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
@@ -56,6 +55,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillEnterForeground(_ scene: UIScene) {
         // Called as the scene transitions from the background to the foreground.
         // Use this method to undo the changes made on entering the background.
+
+        // set notification when app enters foreground
+        SunsetNotification().sendSunsetNotifcationwith(
+            content: SolarManager.instance.sunsetString.label,
+            on: SolarManager.instance.sunsetTime
+        )
     }
 
     @available(iOS 13.0, *)

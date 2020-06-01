@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7C61AB0E97CDD34CC620E1EC /* Pods_Sunset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFBEFA6CA759121871B7A18 /* Pods_Sunset.framework */; };
+		819B9BF7248036EC0056D54C /* SunsetString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B9BF6248036EC0056D54C /* SunsetString.swift */; };
+		81F780EF2485BEA9008DE1E9 /* SolarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F780EE2485BEA9008DE1E9 /* SolarManager.swift */; };
+		81F780F12485BFA9008DE1E9 /* SunsetNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F780F02485BFA9008DE1E9 /* SunsetNotification.swift */; };
 		C3E8880CFCCBF5741BE6FDD5 /* Pods_SunsetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B57E37D63B91E6A6D3A304 /* Pods_SunsetTests.framework */; };
 		E0570268246787780088930A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0570267246787780088930A /* Default-568h@2x.png */; };
 		E0E4BABD245E8D35002FFD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4BABC245E8D35002FFD49 /* AppDelegate.swift */; };
@@ -45,6 +48,9 @@
 		2C65C6755D1BAB6C0E3084F2 /* Pods-Sunset-SunsetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunset-SunsetUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sunset-SunsetUITests/Pods-Sunset-SunsetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32B57E37D63B91E6A6D3A304 /* Pods_SunsetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunsetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7047B40148692F98C2375FC2 /* Pods-SunsetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunsetTests.release.xcconfig"; path = "Target Support Files/Pods-SunsetTests/Pods-SunsetTests.release.xcconfig"; sourceTree = "<group>"; };
+		819B9BF6248036EC0056D54C /* SunsetString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetString.swift; sourceTree = "<group>"; };
+		81F780EE2485BEA9008DE1E9 /* SolarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarManager.swift; sourceTree = "<group>"; };
+		81F780F02485BFA9008DE1E9 /* SunsetNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetNotification.swift; sourceTree = "<group>"; };
 		A33DE4654F4C1BFF68383CA1 /* Pods-Sunset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunset.release.xcconfig"; path = "Target Support Files/Pods-Sunset/Pods-Sunset.release.xcconfig"; sourceTree = "<group>"; };
 		A8CF1AADAFDA56FAFCE26F9D /* Pods_Sunset_SunsetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunset_SunsetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0570267246787780088930A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 				E0E4BAC7245E8D3D002FFD49 /* LaunchScreen.storyboard */,
 				E0E4BACA245E8D3D002FFD49 /* Info.plist */,
 				E0E4BAC4245E8D3D002FFD49 /* Preview Content */,
+				819B9BF6248036EC0056D54C /* SunsetString.swift */,
+				81F780EE2485BEA9008DE1E9 /* SolarManager.swift */,
+				81F780F02485BFA9008DE1E9 /* SunsetNotification.swift */,
 			);
 			path = Sunset;
 			sourceTree = "<group>";
@@ -421,6 +430,9 @@
 			files = (
 				E0E4BABD245E8D35002FFD49 /* AppDelegate.swift in Sources */,
 				E0E4BABF245E8D35002FFD49 /* SceneDelegate.swift in Sources */,
+				81F780F12485BFA9008DE1E9 /* SunsetNotification.swift in Sources */,
+				81F780EF2485BEA9008DE1E9 /* SolarManager.swift in Sources */,
+				819B9BF7248036EC0056D54C /* SunsetString.swift in Sources */,
 				E0E4BAC1245E8D35002FFD49 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
