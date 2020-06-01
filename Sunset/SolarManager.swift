@@ -40,6 +40,7 @@ class SolarManager: NSObject, CLLocationManagerDelegate {
     }
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        // take last location as it is the most recent one
         guard let l = locations.last else { return }
         print(l)
         currentLocation = l.coordinate
